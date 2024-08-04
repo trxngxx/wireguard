@@ -1,5 +1,5 @@
 # Script setup WireGuard VPN on ubuntu server 22.04 LTS.
-1. **SSH vào VPS bằng terminal 
+1. **SSH vào server**
 2. **Cập nhật hệ thống:**
    - **Lệnh**:
      ```bash
