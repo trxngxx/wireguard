@@ -1,12 +1,12 @@
 # Script setup WireGuard VPN on ubuntu server 22.04 LTS.
 1. **SSH vào server**
 2. **Cập nhật hệ thống:**
-   - **Lệnh**:
+   - **Command**:
      ```bash
      sudo apt update && sudo apt upgrade -y
      ```
 3. **Script cài đặt:**
-   - **Lệnh**:
+   - **Command**:
      ```bash
      sudo apt-get install wget -y
      ```
@@ -16,11 +16,11 @@
       ```bash
      sudo bash wireguard-install.sh
      ```
-4. **Để tạo nhiều client một lần thay vì tạo từng client một, bạn có thể tùy chỉnh script WireGuard để tạo nhiều cấu hình client tự động:**
+4. **Để tạo nhiều client một lần thay vì tạo từng client một, có thể tùy chỉnh script WireGuard để tạo nhiều cấu hình client tự động:**
    - Script cài đặt WireGuard và tạo nhiều client
-Lưu ý: Đảm bảo rằng bạn đã cài đặt WireGuard trước khi chạy script này.
+Lưu ý: Đảm bảo rằng đã cài đặt WireGuard trước khi chạy script này.
 Tạo file script 
-   - **Lệnh**:
+   - **Command**:
      ```bash
      wget -qO- https://raw.githubusercontent.com/quangtrangvn/WireGuard/main/create-multiple-clients.sh -O create-multiple-clients.sh
      ```
